@@ -1,5 +1,11 @@
 function getNewRecords()
 {
+  var newRecord = false;
+  
+  var formUrl = SpreadsheetApp.getActiveSpreadsheet().getFormUrl();
+  
+  if(formUrl != null)
+  {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   
   var sheet_form = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
@@ -14,7 +20,6 @@ function getNewRecords()
   var range_form = sheet_form.getRange("A1:R5000");
   var row = range_form.getValues();
   
-  var newRecord = false;
   var lastRecord = lastRecord_form;
   var count = 1;
   
@@ -36,7 +41,7 @@ function getNewRecords()
   
   sheet_control.getRange(11,1).setValue(lastRecord);
   
-//  findLastRecord();
-  
+  //findLastRecord();
+  }
   return newRecord;
 }
