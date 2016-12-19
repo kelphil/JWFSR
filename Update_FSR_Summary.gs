@@ -1,0 +1,4 @@
+function updateFSRSummary()
+{
+  fsReportSummary(false);
+}

@@ -1,0 +1,4 @@
+function sendFSRSummaryEmail()
+{
+  fsReportSummary(true);
+}
