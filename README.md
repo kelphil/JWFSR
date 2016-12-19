@@ -1,10 +1,8 @@
-#+----------+#
 # JWFSR README
 #+----------+#
 
 Thanks for checking this out. Hope you will find it useful.
 
-#+-----------------+#
 # Setup Instructions:
 #+-----------------+#
 
@@ -18,9 +16,8 @@ Thanks for checking this out. Hope you will find it useful.
 8. Click 'Continue' and then 'Allow' to authorize script access to your new Google spreadsheet
 9. Click FSR spreadsheet Menu -> FSR Menu -> Create Form
 10. Click FSR spreadsheet Menu -> FSR Menu -> Form -> Go to live form to validate the field service report entry online form
-11. Click FSR spreadsheet Menu -> FSR Menu -> Create Triggers to enable automated emails to publishers
+11. Click FSR spreadsheet Menu -> FSR Menu -> Create Triggers to enable automated emails to publishers. Click 'Continue' and then 'Allow' to authorize script access to your new Google spreadsheet.
 
-#+--------------+#
 # Reminder Emails:
 #+--------------+#
 
@@ -28,7 +25,6 @@ A reminder email will be sent on alternate days to each publisher from the First
 
 Reminder emails are sent to publishers who are marked as YES in the FIELD SERVICE REPORT (Email List - ColumnF) of your FSR spreadsheet.
 
-#+--------------+#
 # Summary Emails:
 #+--------------+#
 
