@@ -61,7 +61,9 @@ function sendReportReminderEmail()
             
             if (emailSubject != "")
             {
-              message = message + '<br><br><a href="http://goo.gl/forms/hzCcd1xzO8">Field Service Report Form</a>';
+              var formUrl = SpreadsheetApp.getActiveSpreadsheet().getFormUrl();
+              
+              message = message + '<br><br><a href="' + formUrl + '">Field Service Report Form</a>';
               
               if (additional_notes != "")
               {

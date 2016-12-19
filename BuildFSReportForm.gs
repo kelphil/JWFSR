@@ -23,6 +23,8 @@ function createForm()
   sheet_control.getRange(11,1).setValue(0);
   sheet_control.getRange(13,1).setValue(0);
   
+  generateUserCodes();
+  
   buildForm();
 }
 

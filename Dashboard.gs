@@ -113,8 +113,10 @@ function updateDashboard()
                     var emails = correct_email; 
                     var emailSubject = "Field Service Report - " + getFullMonthName(fsr_month) + " " + fsr_year + " - Incorrect Name Entered";
                     
+                    var formUrl = SpreadsheetApp.getActiveSpreadsheet().getFormUrl();
+                    
                     var message =  "Hi " + first_name + ",<br><br>You selected an incorrect publisher name while submitting the " + getFullMonthName(fsr_month) + " " + fsr_year + " field service report. Please submit the report details again using your security code : <b>" + enteredcode + "</b>.";
-                    message = message + '<br><br><a href="http://goo.gl/forms/hzCcd1xzO8">Field Service Report Form</a>';
+                    message = message + '<br><br><a href="' + formUrl + '">Field Service Report Form</a>';
                     message = message + "<br><br>Thanks for your efforts!";
                     
                     var emailBody = message + "<br>";
@@ -144,8 +146,10 @@ function updateDashboard()
                   var emails = email; 
                   var emailSubject = "Field Service Report - " + getFullMonthName(fsr_month) + " " + fsr_year + " - Wrong Security Code Entered";
                   
+                  var formUrl = SpreadsheetApp.getActiveSpreadsheet().getFormUrl();
+                  
                   var message =  "Hi " + first_name + ",<br><br>You entered a wrong security code while submitting the " + getFullMonthName(fsr_month) + " " + fsr_year + " field service report. Please submit the report details again using your correct security code : <b>" + usercode + "</b>.";
-                  message = message + '<br><br><a href="http://goo.gl/forms/hzCcd1xzO8">Field Service Report Form</a>';
+                  message = message + '<br><br><a href="' + formUrl + '">Field Service Report Form</a>';
                   message = message + "<br><br>Thanks for your efforts!";
                   message = message + "<br><br><br><font size='1' color='#737373'><b>Note:</b> If you think you recieved this email by mistake, please ignore this message.</font>";
                   
@@ -285,6 +289,8 @@ function updateDashboard()
                 var emails = email; 
                 var emailSubject = "Your" + updated_header + " Field Service Report - " + getFullMonthName(fsr_month) + " " + fsr_year;
                 
+                var formUrl = SpreadsheetApp.getActiveSpreadsheet().getFormUrl();
+                
                 var message =  "Hi " + first_name + ",<br><br>Thanks for sending your" + updated_body + " field service report.";
                 message = message + "<br><br>" + fs_report;
                 message = message + "<br>"
@@ -299,7 +305,7 @@ function updateDashboard()
                 }
                 
                 message = message + "resubmit the complete report with the correct information using the link below. Your security code is <b>" + usercode + "</b>.";
-                message = message + '<br><br><a href="http://goo.gl/forms/hzCcd1xzO8">Resubmit Field Service Report</a>';
+                message = message + '<br><br><a href="' + formUrl + '">Resubmit Field Service Report</a>';
                 message = message + "<br><br>Thanks for your efforts!";
                 
                 var emailBody = message + "<br>";
