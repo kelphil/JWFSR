@@ -4,7 +4,7 @@ Thanks for checking this out. Hope you will find it useful.
 # Setup Instructions
 1. Open field service report (FSR) template spreadsheet provided to you
 2. Click 'File' -> 'Make a copy' to copy the FSR template Google spreadsheet; provide a meaningful filename 
-3. Enter 'publisher name', 'email address', 'phone number',  etc in the 'Email List' tab of your FSR spreadsheet. 'UserCode' will be generated automatically.
+3. Enter 'publisher name', 'email address', 'phone number' in the 'Email List' tab of your FSR spreadsheet. 'UserCode' will be generated automatically.
 4. Enter 'congregation/group name' and 'language' on 'Controls' tab (row 14) of your FSR spreadsheet
 5. Enter first/last email day and first email summary day on 'Controls' tab (row 15) of your FSR spreadsheet
 6. Select Group Overseer name from the dropdown on 'Controls' tab (row 16, column B) of your FSR spreadsheet
