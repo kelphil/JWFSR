@@ -19,7 +19,7 @@ Thanks for checking this out. Hope you will find it useful.
 # Reminder Emails
 A reminder email will be sent on alternate days to each publisher from the First Email Day (Controls-B15) to Last Email Day (Controls-D15) with his/her unique code (reset each month) and a link to the online field service report form. Further reminder emails will not be sent once a publisher submits his/her field service report for the month via the online form. 
 
-Reminder emails are sent to publishers who are marked as YES in the FIELD SERVICE REPORT (Email List - ColumnF) of your FSR spreadsheet.
+Reminder emails are sent to publishers who are marked as YES in the FIELD SERVICE REPORT (Email List - ColumnD) of your FSR spreadsheet.
 
 # Summary Emails
 A summary email will be sent to the Group Overseer (Controls-B16) each day from First Email Summary Day (Controls-F15) to Last Email Day (Controls-D15).
