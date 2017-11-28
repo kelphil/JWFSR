@@ -22,4 +22,9 @@ A reminder email will be sent on alternate days to each publisher from the First
 Reminder emails are sent to publishers who are marked as YES in the FIELD SERVICE REPORT (Email List - ColumnD) of your FSR spreadsheet.
 
 # Summary Emails
+A field service group summary email will be sent to the every Group Overseer each day from First Email Summary Day (Controls-F15) to Last Email Day (Controls-D15). Assistant Group Overseer will be copied on these emails if Controls-F14 is marked as YES. These emails will show report grouped by Publishers/RP/AP etc
+
+A congregation summary email will be sent to the Congregation Secretary (Controls-B17) on Congregation Report Email Summary Day (Controls-D17). All Congregation Elders will be copied on this email if Controls-F14 is marked as YES. This email will also show report statistics (totals/averages) grouped by Publishers/RP/AP etc.
+
+# Summary Email
 A summary email will be sent to the Group Overseer (Controls-B16) each day from First Email Summary Day (Controls-F15) to Last Email Day (Controls-D15).
